@@ -1,0 +1,38 @@
+2026-10-31 11:24:21,749 - INFO livekit.agents - starting worker {"version": "1.8.4", "rtc-version": "1.1.20"}
+2026-10-31 11:24:21,749 - INFO livekit.agents - plugin registered {"plugin": "livekit.plugins.openai", "version": "1.8.4"}
+2026-10-31 11:24:21,751 - INFO livekit.agents - plugin registered {"plugin": "livekit.plugins.google", "version": "1.8.4"}
+2026-10-31 11:24:21,751 - INFO livekit.agents - plugin registered {"plugin": "livekit.plugins.elevenlabs", "version": "1.8.4"}
+2026-10-31 11:24:21,751 - INFO livekit.agents - HTTP server listening on :50358 
+2026-10-31 11:24:22,011 - WARNING livekit.agents - event loop blocked for 230ms [detalle de pila omitido]
+2026-10-31 11:24:22,220 - INFO livekit.agents - registered worker {"agent_name": "alloxentric-real-time-agent-dev", "deployment": "", "id": "AW_BY4YUCxaviZM", "url": "wss://<proyecto>.livekit.cloud", "region": "Brazil", "protocol": 18}
+2026-10-31 11:42:30,887 - WARNING livekit.agents - event loop blocked for 136ms [detalle de pila omitido]
+2026-10-31 11:45:40,567 - WARNING livekit.agents - event loop blocked for 120ms [detalle de pila omitido]
+2026-10-31 11:54:41,481 - WARNING livekit.agents - event loop blocked for 105ms [detalle de pila omitido]
+2026-10-31 12:35:26,832 - INFO livekit.agents - received job request {"job_id": "AJ_vzjEF7rJwWqB", "dispatch_id": "AD_H2H9DFt3S3Ge", "room": "<redactado>", "room_id": "RM_66USm7y4zpds", "agent_name": "alloxentric-real-time-agent-dev", "resuming": false, "enable_recording": false}
+2026-10-31 12:35:26,887 - WARNING livekit.agents - no warmed process available for job, waiting for one to be created {"job_id": "AJ_vzjEF7rJwWqB"}
+2026-10-31 12:35:26,897 - INFO livekit.agents - initializing job runner {"tid": 11608}
+2026-10-31 12:35:33,034 - INFO livekit.agents - job runner initialized {"tid": 11608, "elapsed_time": 6.14}
+2026-10-31 12:35:34,316 - INFO livekit.agents - adaptive interruption detector initialized {"base_url": "https://agent-gateway.livekit.cloud/v1", "detection_interval": 0.1, "audio_prefix_duration": 1.0, "max_audio_duration": 3, "min_frames": 2, "threshold": null, "inference_timeout": 0.7}
+2026-10-31 12:35:34,333 - WARNING livekit.agents - event loop blocked for 1199ms [detalle de pila omitido]
+2026-10-31 12:35:34,665 - WARNING livekit.agents - event loop blocked for 308ms [detalle de pila omitido]
+2026-10-31 12:35:34,747 - INFO alloxentric_real_time_agent.metrics - metrics startup {"startup_s": 0.4424} 
+2026-10-31 12:35:34,748 - INFO alloxentric_real_time_agent - Pipeline de voz iniciado en la sala '<sala-redactada>' (persona=clinica-dental). 
+2026-10-31 12:35:34,751 - INFO livekit.agents - RoomIO linked to participant {"lk.pii.participant_identity": "<redactado>", "lk.pii.room_name": "<redactado>"}
+2026-10-31 12:35:35,583 - WARNING livekit.agents - event loop blocked for 137ms [detalle de pila omitido]
+2026-10-31 12:35:40,850 - INFO alloxentric_real_time_agent.metrics - metrics turn {"interrupted": false, "playback_latency_s": 0.001, "tts_node_ttfb_s": 0.3182, "turn": 1} 
+2026-10-31 12:35:44,454 - INFO google_genai.models - AFC is enabled with max remote calls: 10. 
+2026-10-31 12:35:48,193 - WARNING livekit.agents - transcript arrives after turn has been committed. consider raising `min_delay` in the endpointing options to accommodate a slow stt. subsequent occurrences will log at debug level. 
+2026-10-31 12:35:48,209 - INFO alloxentric_real_time_agent.metrics - metrics turn {"e2e_latency_s": 1.5889, "end_of_turn_delay_s": 1.4896, "interrupted": true, "llm_node_ttft_s": 1.413, "playback_latency_s": 0.0953, "transcription_delay_s": 0.0, "tts_node_ttfb_s": 0.3109, "turn": 2} 
+2026-10-31 12:35:48,219 - INFO google_genai.models - AFC is enabled with max remote calls: 10. 
+2026-10-31 12:35:55,740 - INFO alloxentric_real_time_agent.metrics - metrics turn {"interrupted": false, "llm_node_ttft_s": 0.8665, "playback_latency_s": 0.001, "tts_node_ttfb_s": 0.3494, "turn": 3} 
+2026-10-31 12:36:05,931 - INFO google_genai.models - AFC is enabled with max remote calls: 10. 
+2026-10-31 12:36:16,711 - INFO alloxentric_real_time_agent.metrics - metrics turn {"e2e_latency_s": 3.3519, "end_of_turn_delay_s": 1.1337, "interrupted": false, "llm_node_ttft_s": 1.8736, "playback_latency_s": 0.001, "transcription_delay_s": 1.1261, "tts_node_ttfb_s": 0.3197, "turn": 4} 
+2026-10-31 12:36:22,368 - INFO google_genai.models - AFC is enabled with max remote calls: 10. 
+2026-10-31 12:36:31,391 - INFO alloxentric_real_time_agent.metrics - metrics turn {"e2e_latency_s": 2.7411, "end_of_turn_delay_s": 1.2287, "interrupted": false, "llm_node_ttft_s": 1.0369, "playback_latency_s": 0.001, "transcription_delay_s": 1.2212, "tts_node_ttfb_s": 0.3092, "turn": 5} 
+2026-10-31 12:36:34,248 - INFO google_genai.models - AFC is enabled with max remote calls: 10. 
+2026-10-31 12:36:42,529 - INFO alloxentric_real_time_agent.metrics - metrics turn {"e2e_latency_s": 1.1912, "end_of_turn_delay_s": 0.4814, "interrupted": false, "llm_node_ttft_s": 0.8045, "playback_latency_s": 0.0005, "transcription_delay_s": 0.0, "tts_node_ttfb_s": 0.3204, "turn": 6} 
+2026-10-31 12:36:46,960 - INFO google_genai.models - AFC is enabled with max remote calls: 10. 
+2026-10-31 12:36:51,985 - INFO alloxentric_real_time_agent.metrics - metrics turn {"e2e_latency_s": 2.7779, "end_of_turn_delay_s": 1.2704, "interrupted": false, "llm_node_ttft_s": 1.1493, "playback_latency_s": 0.001, "transcription_delay_s": 1.2588, "tts_node_ttfb_s": 0.3177, "turn": 7} 
+2026-10-31 12:36:54,017 - INFO livekit.agents - closing agent session due to participant disconnect (disable via `RoomInputOptions.close_on_disconnect=False`) {"room": "<redactado>", "participant": "<redactado>", "reason": "CLIENT_INITIATED"}
+2026-10-31 12:36:56,096 - INFO alloxentric_real_time_agent.metrics - metrics session_summary {"close_reason": "participant_disconnected", "errors": {}, "startup_s": 0.4424, "turns": 7, "usage": [{"input_tokens": 2493.0, "model": "gemini-3.1-flash-lite", "output_tokens": 139.0, "provider": "Gemini", "type": "llm_usage"}, {"audio_duration": 42.8408, "characters_count": 640.0, "model": "eleven_v4_turbo", "provider": "ElevenLabs", "type": "tts_usage"}, {"audio_duration": 72.0, "model": "chirp_3", "provider": "desconocido", "type": "stt_usage"}, {"model": "turn-detector-v1", "provider": "livekit", "type": "eot_usage"}]} 
+2026-10-31 12:36:56,096 - INFO alloxentric_real_time_agent.pipeline - Sesion cerrada: motivo=participant_disconnected 
