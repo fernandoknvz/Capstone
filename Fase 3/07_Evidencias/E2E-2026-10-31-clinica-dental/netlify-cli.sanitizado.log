@@ -1,0 +1,41 @@
+Local dev server ready: http://localhost:8888
+⬥ Loaded function login
+⬥ Loaded function logout
+⬥ Loaded function session
+⬥ Loaded function livekit-token
+Request from ::1: GET /api/demo/session
+Response with status 401 in 396 ms.
+Request from ::1: POST /api/livekit-token
+Response with status 401 in 555 ms.
+Request from ::1: GET /api/demo/session
+Response with status 401 in 415 ms.
+Request from ::1: POST /api/demo/login
+Response with status 401 in 488 ms.
+Request from ::1: POST /api/demo/login
+Response with status 401 in 353 ms.
+Request from ::1: POST /api/demo/login
+Response with status 401 in 376 ms.
+Request from ::1: POST /api/demo/login
+Response with status 401 in 399 ms.
+Request from ::1: GET /api/demo/session
+Response with status 401 in 621 ms.
+Request from ::1: POST /api/demo/login
+Response with status 401 in 523 ms.
+Request from ::1: POST /api/demo/login
+Response with status 401 in 365 ms.
+Request from ::1: GET /api/demo/session
+Response with status 401 in 426 ms.
+Request from ::1: POST /api/demo/login
+Response with status 401 in 361 ms.
+Request from ::1: POST /api/demo/login
+Response with status 401 in 352 ms.
+Request from ::1: POST /api/demo/login
+Response with status 204 in 425 ms.
+Request from ::1: GET /api/demo/session
+Response with status 401 in 431 ms.
+Request from ::1: GET /api/demo/session
+Response with status 204 in 422 ms.
+Request from ::1: POST /api/livekit-token
+Response with status 201 in 830 ms.
+Request from ::1: POST /api/livekit-token
+Response with status 201 in 767 ms.
