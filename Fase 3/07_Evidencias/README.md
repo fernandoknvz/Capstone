@@ -7,7 +7,7 @@ Cada evidencia debe conservar procedencia, fecha, commit o rama, estado de integ
 - D01-D06 y E01 en la ubicación histórica de Fase 2.
 - Logs sanitizados E2E del 31-oct en `E2E-2026-10-31-clinica-dental/` (SHA-256 verificados el 17-nov).
 - Certificación de pruebas sobre `main` del 17-nov: `CERTIFICACION_PRUEBAS_2026-11-17.md`.
-- Capturas de la Web Demo (acceso, acceso rechazado, selección de agente, historial) en `capturas-web-demo-2026-11-17/`.
+- Capturas de la Web Demo (acceso, acceso rechazado, selección de agente, historial) en `capturas-web-demo-2026-11-17/`. En las capturas 03 y 04 se tapó con un recuadro rotulado «omitido» el nombre de una persona que el producto muestra como deudor ficticio en la tarjeta «Cobranza Falabella»; el resto de la imagen no se modificó. En las capturas 03 y 04 se tapó con un recuadro rotulado «omitido» el nombre de una persona que el producto muestra como deudor ficticio en la tarjeta «Cobranza Falabella»; el resto de la imagen no se modificó.
 
 ## Faltantes
 

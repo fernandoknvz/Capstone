@@ -141,7 +141,7 @@ def build() -> Path:
     ], start=1):
         d.step(f"{i}.", x)
     d.figure(SHOT / "01_acceso.png", "Figura 8. Pantalla de acceso (captura del producto, 17-nov-2026; no es un mockup previo).", 13.5)
-    d.figure(SHOT / "03_seleccion_agente.png", "Figura 9. Selección de agente entre las 7 personas (captura del 17-nov-2026).", 11.5)
+    d.figure(SHOT / "03_seleccion_agente.png", "Figura 9. Selección de agente entre las 7 personas (captura del 17-nov-2026; nombre del deudor ficticio de una tarjeta omitido).", 11.5)
     d.figure(SHOT / "04_historial.png", "Figura 10. Historial local con dos conversaciones sintéticas de captura (17-nov-2026).", 11.5)
     d.para("[PENDIENTE] Faltan capturas de la conversación y de la transcripción en vivo, que requieren el worker en ejecución con credenciales reales; deben tomarse durante el ensayo, sin mostrar secretos ni el código de acceso. Plan B: video del ensayo.")
     d.h1("11. Riesgos")

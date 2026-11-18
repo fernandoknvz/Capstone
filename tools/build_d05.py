@@ -85,7 +85,7 @@ def build() -> Path:
            "El historial de la Figura 6 se pobló con dos conversaciones sintéticas de texto marcado [Texto sintético de captura] para mostrar la interfaz. Los escenarios de cobranza muestran nombres y montos ficticios definidos en el propio producto.")
     d.figure(SHOT / "01_acceso.png", "Figura 3. Pantalla de acceso con código temporal. Fuente: captura del 17-nov-2026 (main 77ff85c).", 14.5)
     d.figure(SHOT / "02_acceso_rechazado.png", "Figura 4. Acceso con un código incorrecto: el servidor responde 401 y la interfaz muestra el error. Fuente: captura del 17-nov-2026.", 14.5)
-    d.figure(SHOT / "03_seleccion_agente.png", "Figura 5. Selección de agente (7 personas) e historial vacío. Fuente: captura del 17-nov-2026.", 12.0)
+    d.figure(SHOT / "03_seleccion_agente.png", "Figura 5. Selección de agente (7 personas) e historial vacío. Fuente: captura del 17-nov-2026 (nombre del deudor ficticio de una tarjeta omitido).", 12.0)
     d.figure(SHOT / "04_historial.png", "Figura 6. Historial local con dos conversaciones sintéticas. Fuente: captura del 17-nov-2026.", 12.0)
     d.para("[PENDIENTE] Faltan capturas de la conversación y la transcripción en vivo: requieren el worker en ejecución con credenciales reales de LiveKit, Google, el LLM y ElevenLabs, y consumen servicios de pago. Deben tomarse durante el ensayo de la demostración (guía D06) con un navegador, sin mostrar variables de entorno ni el código de acceso, y archivarse en Fase 3/07_Evidencias/capturas-web-demo-2026-11-17/.")
     d.h1("11. Conclusiones")
