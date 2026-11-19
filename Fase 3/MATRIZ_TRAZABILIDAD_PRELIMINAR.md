@@ -6,6 +6,8 @@ Atención a la numeración: el **RF-04 de esta matriz** (generación de respuest
 
 Actualización del 18-nov-2026: se incorpora la evidencia E2E con DeepSeek (`Fase 3/07_Evidencias/E2E-2026-11-17-clinica-dental-deepseek/`). El agendamiento de esa sesión es una simulación conversacional: no hay reservas reales, Asterisk ni persistencia empresarial.
 
+Actualización del 19-nov-2026: se incorporan EV-20 (reporte agregado CoreStream) y EV-21 (cuatro capturas derivadas por recorte determinístico de la demostración del 17-nov). EV-20 es evidencia de gestión y EV-21 es evidencia funcional visual; ninguna modifica por sí sola el estado de cumplimiento de requisitos o hitos.
+
 Estados usados:
 
 - **MAIN PROBADO:** integrado en `main` y con prueba o evidencia verificable.
@@ -17,13 +19,13 @@ Estados usados:
 
 | ID | Requerimiento | Implementación | Integración | Prueba | Resultado | Evidencia verificable | Responsable | Estado |
 |---|---|---|---|---|---|---|---|---|
-| RF-01 | Conversación de voz en tiempo real | `agent.py`, `pipeline.py` | `main`, PR #2/#7 | Unitarias y E2E web | Conversación completada | PR #7; logs E2E 31-oct; E2E 17-nov (EV-14 a EV-17) | Fernando | MAIN PROBADO |
+| RF-01 | Conversación de voz en tiempo real | `agent.py`, `pipeline.py` | `main`, PR #2/#7 | Unitarias y E2E web | Conversación completada | PR #7; logs E2E 31-oct; E2E 17-nov (EV-14 a EV-17); continuidad textual visible en EV-21 | Fernando | MAIN PROBADO |
 | RF-02 | Transporte de audio LiveKit | Worker y sala LiveKit | `main` | E2E web | Audio de entrada y salida operativo | Log worker 31-oct | Fernando | MAIN PROBADO |
 | RF-03 | Transcripción streaming | `stt.py`, Chirp 3 | `main`, PR #6 | `test_stt.py`, E01 y E2E | Operativo; espera final visible | PR #6; E01; log 31-oct | Juan | MAIN PROBADO |
 | RF-04 | Generación de respuesta | `llm.py`, `llm_gemini.py` | `main`, PR #3/#5 | Unitarias y E2E Gemini | Gemini operativo (31-oct); DeepSeek verificado en log: 9 respuestas, `errors: {}` (17-nov). Observaciones: una sola sesión por proveedor; calidad semántica no evaluada formalmente; el uso de LLM sigue pendiente de validación con el cliente (D03 RF-03) | PR #3/#5; log 31-oct; EV-14/EV-15 | Fernando; optimización Juan | MAIN PROBADO — con observaciones |
 | RF-05 | Síntesis de voz | `tts.py` | `main`, PR #4 | `test_tts.py`, script y E2E | Audio ElevenLabs operativo | PR #4; E01; log 31-oct | David; ajustes Juan | MAIN PROBADO |
 | RF-06 | Web Demo controlada | `web-demo/app`, componentes y funciones | `main`, PR #11-#16 | Tests web y E2E | Acceso, llamada y transcripción funcionales | PR #11-#16; log Netlify 31-oct | Fernando/Juan | MAIN PROBADO |
-| RF-07 | Personas de demostración | `personas.py`, selector e historial | `main`, PR #16 | Tests personas/historial | Siete personas; solo la clínica dental tiene E2E real (31-oct y 17-nov) | PR #16; E2E clínica dental | Juan | MAIN PARCIAL |
+| RF-07 | Personas de demostración | `personas.py`, selector e historial | `main`, PR #16 | Tests personas/historial | Siete personas; solo la clínica dental tiene E2E real (31-oct y 17-nov) | PR #16; E2E clínica dental; EV-21 | Juan | MAIN PARCIAL |
 | RF-08 | Nombre aislado del worker | `resolve_agent_name`, configuración | `main`, PR #17 | `test_agent_name.py` | Worker dev aislado por nombre | PR #17; log 31-oct | Fernando | MAIN PROBADO |
 | RF-09 | Telefonía Asterisk | No encontrada | No integrado | Sin prueba | Sin llamada telefónica | D01-D06 | Equipo/cliente | PENDIENTE |
 | RF-10 | Guion oficial de cobranza | Personas ficticias no equivalentes | No integrado | Sin prueba oficial | No validado con cliente | D01/D03 | Equipo/cliente | PENDIENTE |
