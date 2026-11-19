@@ -14,6 +14,9 @@ ORIG = ROOT / "Fase 2" / "Evidencias Proyecto" / "Evidencias Documentacion"
 OUT = ROOT / "Fase 3" / "Entregables"
 FIG = ROOT / "Fase 3" / "03_Diseno" / "diagramas"
 SHOT = ROOT / "Fase 3" / "07_Evidencias" / "capturas-web-demo-2026-11-17"
+SHOT_DS = ROOT / "Fase 3" / "07_Evidencias" / "E2E-2026-11-17-clinica-dental-deepseek" / "capturas"
+EV_DS = "Fase 3/07_Evidencias/E2E-2026-11-17-clinica-dental-deepseek/"
+DATE_DS = "18-nov-2026"
 
 DATE = "17 de noviembre de 2026"
 CUT = "17-nov-2026"
@@ -48,15 +51,15 @@ def landscape_figure(d: Doc, image: Path, caption: str, width_cm: float = 22.6) 
     d._place(p2._p)
 
 
-def control_row(d: Doc, code_table_first: str = "Versión", change: str = "") -> None:
+def control_row(d: Doc, code_table_first: str = "Versión", change: str = "", version: str = "1.1", date: str = CUT) -> None:
     t = d.table(code_table_first)
-    d.add_row(t, ["1.1 (borrador)", CUT, AUTHOR, change])
+    d.add_row(t, [f"{version} (borrador)", date, AUTHOR, change])
 
 
-def cover(d: Doc, code: str) -> None:
+def cover(d: Doc, code: str, version: str = "1.1", date: str = DATE) -> None:
     d.retitle_cover(
-        f"{DATE}",
-        f"Código del documento: {code}  ·  Versión 1.1 (borrador) · Actualización Fase 3",
+        f"{date}",
+        f"Código del documento: {code}  ·  Versión {version} (borrador) · Actualización Fase 3",
         "Estado: Borrador para revisión del equipo (sin aprobación; no publicado)",
     )
 
@@ -103,6 +106,22 @@ E2E_TABLE = [
     ["Persona probada", "Clínica dental (1 de 7); voz humana de un hablante"],
     ["Configuración", "main a d80c419 (PR #16 y #17); Chirp 3 · gemini-3.1-flash-lite · eleven_v4_turbo; record=False"],
     ["Uso registrado", "Gemini 2.493 tokens de entrada y 139 de salida · ElevenLabs 640 caracteres y 42,8 s · Chirp 3 72,0 s de audio"],
+]
+
+# Sesión E2E del 17-nov-2026 con DeepSeek (fuente: registro y log sanitizado en EV_DS; recalculado del log el 18-nov)
+E2E_DS_TABLE = [
+    ["Sesión · duración", "Job AJ_zm9g5TDNqgG5 · 145,9 s (solicitud 22:41:56 a desconexión del cliente 22:44:22)"],
+    ["Turnos del agente", "10: 1 saludo estático (sin LLM) + 9 respuestas generadas por el LLM"],
+    ["Media · mediana E2E", "2,961 s · 3,264 s (n=8; los turnos 1 y 3 no tienen emparejamiento con un turno de la persona)"],
+    ["Mínimo · máximo E2E", "0,557 s (turno interrumpido) · 5,499 s"],
+    ["P95 estimado", "5,009 s (n=8; sin robustez estadística)"],
+    ["Objetivo de 1 s", "NO CUMPLIDO: 2 de 8 turnos medidos (turnos 2 y 5); 4 de 8 sobre 3 s"],
+    ["Medias por etapa", "Primer token del LLM 1,830 s (n=9; mediana 1,788 s) · primer audio TTS 0,293 s (n=10) · espera de transcripción final 1,356 s (n=5, solo valores > 0) · fin de turno 1,097 s (n=8)"],
+    ["Errores de sesión", "0 (errors: {})"],
+    ["Persona probada", "Clínica dental (1 de 7); voz humana de un hablante; worker local de desarrollo"],
+    ["Configuración", "Commit fe88e268, con el mismo árbol Git que main 77ff85c (ed9ad04e68eff160b850308e486cf3c51cf9d060, verificado el 18-nov; no consta que el árbol de trabajo local estuviera limpio durante el ensayo); Chirp 3 · deepseek-flash · eleven_v4_turbo; record=False"],
+    ["Uso registrado", "DeepSeek 5.308 tokens de entrada y 1.050 de salida (771 de razonamiento) · ElevenLabs 890 caracteres y 66,6 s · Chirp 3 134,0 s de audio"],
+    ["Alcance funcional", "Agendamiento SIMULADO: sin reservas reales, sin Asterisk, sin persistencia empresarial; el texto «queda reservada» es conversacional"],
 ]
 
 CERT_TABLE = [

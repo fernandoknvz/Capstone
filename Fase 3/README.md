@@ -44,7 +44,9 @@ La carpeta `Entregables` contiene las versiones completas y actualizadas de Fase
 | `D05_Plan_de_Pruebas_y_Resultados_v1.1_Fase3.docx` | D05 v1.0 | Certificación del 17-nov, E2E 31-oct, TC-19 a TC-22, evidencias y capturas |
 | `D06_Guia_de_Despliegue_y_Operacion_v1.1_Fase3.docx` | D06 v1.0 | CI, nombre del agente, ensayo de la demo del 19-nov |
 | `Informe_Academico_Consolidado_v1.0_Fase3.docx` | Estilo de D01 | Informe completo de Fase 3 con diagramas, resultados y demostración |
+| `D05_Plan_de_Pruebas_y_Resultados_v1.2_Fase3.docx` | D05 v1.0 (consolida v1.1) | Agrega la sesión E2E del 17-nov con DeepSeek (TC-23, sección 4.7, evidencias E06 a E09 y capturas de la conversación). La v1.1 se conserva |
+| `Informe_Academico_Consolidado_v1.1_Fase3.docx` | Estilo de D01 | Agrega el ensayo E2E del 17-nov (sección 10.1, figuras 11 y 12, evidencias E06 a E09). La v1.0 se conserva |
 
 `Entregables/_Referencia_resumenes_Codex/` conserva, sin cambios, los siete resúmenes generados por Codex; son solo referencia y no deben usarse como entregables.
 
-Todos son borradores para revisión humana y no están aprobados para publicación. Los diagramas fuente están en `03_Diseno/diagramas/` y las capturas de la Web Demo en `07_Evidencias/capturas-web-demo-2026-11-17/`. La certificación de pruebas del 17-nov está en `07_Evidencias/CERTIFICACION_PRUEBAS_2026-11-17.md`. Los scripts que generan y verifican los documentos están en `tools/` (ver `tools/README.md`).
+Todos son borradores para revisión humana y no están aprobados para publicación. La evidencia del ensayo E2E del 17-nov con DeepSeek (aprobado con observaciones: latencia objetivo no cumplida y agendamiento simulado) está en `07_Evidencias/E2E-2026-11-17-clinica-dental-deepseek/`. Los diagramas fuente están en `03_Diseno/diagramas/` y las capturas de la Web Demo en `07_Evidencias/capturas-web-demo-2026-11-17/`. La certificación de pruebas del 17-nov está en `07_Evidencias/CERTIFICACION_PRUEBAS_2026-11-17.md`. Los scripts que generan y verifican los documentos están en `tools/` (ver `tools/README.md`).

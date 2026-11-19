@@ -1,0 +1,3 @@
+# Conservar los bytes exactos de los logs para que coincidan los SHA-256 del manifiesto
+*.log -text
+*.png binary
