@@ -119,7 +119,7 @@ E2E_DS_TABLE = [
     ["Medias por etapa", "Primer token del LLM 1,830 s (n=9; mediana 1,788 s) · primer audio TTS 0,293 s (n=10) · espera de transcripción final 1,356 s (n=5, solo valores > 0) · fin de turno 1,097 s (n=8)"],
     ["Errores de sesión", "0 (errors: {})"],
     ["Persona probada", "Clínica dental (1 de 7); voz humana de un hablante; worker local de desarrollo"],
-    ["Configuración", "Commit fe88e268 (código declarado idéntico a main 77ff85c; no re-verificado); Chirp 3 · deepseek-flash · eleven_v4_turbo; record=False"],
+    ["Configuración", "Commit fe88e268, con el mismo árbol Git que main 77ff85c (ed9ad04e68eff160b850308e486cf3c51cf9d060, verificado el 18-nov; no consta que el árbol de trabajo local estuviera limpio durante el ensayo); Chirp 3 · deepseek-flash · eleven_v4_turbo; record=False"],
     ["Uso registrado", "DeepSeek 5.308 tokens de entrada y 1.050 de salida (771 de razonamiento) · ElevenLabs 890 caracteres y 66,6 s · Chirp 3 134,0 s de audio"],
     ["Alcance funcional", "Agendamiento SIMULADO: sin reservas reales, sin Asterisk, sin persistencia empresarial; el texto «queda reservada» es conversacional"],
 ]

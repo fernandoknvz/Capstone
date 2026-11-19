@@ -50,7 +50,7 @@ def build() -> Path:
 
     d.h1("1. Resumen ejecutivo")
     d.para("Alloxentric Real Time Agent es un prototipo de agente de voz en tiempo real, construido para explorar una alternativa a la plataforma de bots de voz de Alloxentric con mayor elasticidad de costos. Al 17-nov-2026 el equipo dispone de un MVP integrado en main (commit 77ff85c) que sostiene conversaciones de voz completas desde el navegador (voz → STT → LLM → TTS → voz) con proveedores intercambiables, siete escenarios de práctica ficticios, transcripción en vivo, historial local, controles de acceso, métricas de latencia e integración continua. [CONFIRMADO]")
-    d.para("Las pruebas automáticas verificadas el 17-nov son 214 de Python y 91 de la web, y la CI sobre main concluyó en verde. Tres sesiones reales (E01 del 30-oct, E2E del 31-oct con Gemini y E2E del 17-nov con DeepSeek, aprobada con observaciones) muestran una latencia de voz a voz con mediana de ≈2,6 a 3,3 s, que no cumple el requisito de 1 s (en la sesión del 17-nov solo 2 de 8 turnos medidos lo alcanzan). El agendamiento de la demostración es una simulación conversacional, sin reservas reales. No existen aún telefonía con Asterisk, guion oficial de cobranza, comparación de costo y efectividad, persistencia de negocio ni un hosting persistente del worker. [CONFIRMADO]")
+    d.para("Las pruebas automáticas verificadas el 17-nov son 214 de Python y 91 de la web, y la CI sobre main concluyó en verde. Tres fuentes de medición (E01 del 30-oct, E2E del 31-oct con Gemini y E2E del 17-nov con DeepSeek, aprobada con observaciones) muestran una latencia de voz a voz con mediana de ≈2,6 a 3,3 s, que no cumple el requisito de 1 s (en la sesión del 17-nov solo 2 de 8 turnos medidos lo alcanzan). El agendamiento de la demostración es una simulación conversacional, sin reservas reales. No existen aún telefonía con Asterisk, guion oficial de cobranza, comparación de costo y efectividad, persistencia de negocio ni un hosting persistente del worker. [CONFIRMADO]")
     d.h1("2. Problema y contexto")
     d.para("[CONFIRMADO] En la reunión inicial del 2-sep-2026, Max Kreimerman (dueño de Alloxentric) explicó que su infraestructura de bots de voz, optimizada para gran escala, tiene poca elasticidad de costos cuando baja el volumen de llamadas. Solicitó un prototipo de bot de cobranza por voz con LiveKit, un servicio de transcripción, ElevenLabs y la telefonía Asterisk, para comparar costo y efectividad por llamada con la solución actual, con una respuesta de no más de 1 s (sobre 3 s la persona puede cortar).")
     d.table_new(["", "Situación actual (AS-IS)", "Alternativa a evaluar (TO-BE)"], [
@@ -71,7 +71,7 @@ def build() -> Path:
     ], [7.0, 2.4, 7.2])
     d.h1("4. Alcance")
     d.table_new(["Elemento", "Estado", "Clasificación"], [
-        ["Conversación de voz en tiempo real desde el navegador", "Implementada e integrada en main; validada con tres sesiones reales (la última, con DeepSeek, aprobada con observaciones)", "[CONFIRMADO]"],
+        ["Conversación de voz en tiempo real desde el navegador", "Implementada e integrada en main; validada con tres fuentes de medición (la última, con DeepSeek, aprobada con observaciones)", "[CONFIRMADO]"],
         ["Web Demo con acceso por código, 7 escenarios, transcripción, micrófono e historial", "Implementada e integrada (PR #11 a #17)", "[CONFIRMADO]"],
         ["Métricas de latencia y uso, seguridad y CI", "Implementadas e integradas (PR #9, #11 a #20)", "[CONFIRMADO]"],
         ["STT seleccionable, Anthropic y LiveKit Inference (PR #18)", "Rama abierta, sin revisión; no integrada", "[PROPUESTA]"],
@@ -211,6 +211,7 @@ def build() -> Path:
         ["CI", "GitHub Actions sobre main", "Run 42435613596 (success) en 77ff85c", "PR #19 fusionado sin aprobación independiente"],
     ], [1.2, 5.0, 6.4, 4.0])
     out = OUT / "Informe_Academico_Consolidado_v1.1_Fase3.docx"
+    d.doc.core_properties.title = "Informe académico consolidado — Alloxentric Real Time Agent"
     d.save(out)
     return out
 

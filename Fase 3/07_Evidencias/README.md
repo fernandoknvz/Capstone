@@ -17,7 +17,7 @@ Cada evidencia debe conservar procedencia, fecha, commit o rama, estado de integ
 - Actas de reuniones y decisiones del cliente.
 - Aprobación del cambio de STT y uso de LLM.
 - Prueba Asterisk.
-- Capturas del cierre de la llamada y del historial de la sesión del 17-nov (el tramo final del video muestra un nombre completo ficticio y requeriría enmascararlo).
+- Capturas del cierre de la llamada y del historial de la sesión del 17-nov (el tramo final del video muestra un nombre completo pronunciado durante la demostración y requeriría enmascararlo).
 - Más sesiones E2E (una sola sesión DeepSeek; las otras seis personas sin E2E real).
 - Validación de seis personas restantes.
 - Protocolo y resultados de costo/efectividad.

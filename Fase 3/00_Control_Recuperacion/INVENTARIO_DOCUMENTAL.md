@@ -36,3 +36,7 @@ Origen: rama `origin/docs/fase2-juan-documentacion-y-diario`, commit `31f096e46c
 - No se recuperó el diario individual de Juan en esta actividad porque el alcance solicitado fue D01-D06 y E01.
 - No se importaron respaldos originales no sanitizados.
 - No se incorporaron capturas de CoreStream, actas ni materiales del cliente porque no estaban disponibles.
+
+## Nota posterior (18-nov-2026)
+
+D04 v1.1 y D06 v1.1 reflejan el estado anterior a la demostración E2E del 17 de noviembre de 2026 con DeepSeek (por ejemplo, «DeepSeek real solo reportado» y capturas de conversación pendientes). No se modificaron. Las evidencias vigentes de esa demostración están en `D05_Plan_de_Pruebas_y_Resultados_v1.2_Fase3.docx`, en `Informe_Academico_Consolidado_v1.1_Fase3.docx` y en `07_Evidencias/E2E-2026-11-17-clinica-dental-deepseek/`.
