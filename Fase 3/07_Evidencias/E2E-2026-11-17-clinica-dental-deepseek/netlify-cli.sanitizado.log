@@ -1,0 +1,12 @@
+﻿ Loaded function logout
+ Loaded function session
+ Loaded function login
+ Loaded function livekit-token
+Request from ::1: GET /api/demo/session
+Response with status 401 in 710 ms.
+Request from ::1: POST /api/demo/login
+Response with status 204 in 473 ms.
+Request from ::1: POST /api/livekit-token
+Response with status 201 in 684 ms.
+Request from ::1: POST /api/livekit-token
+Response with status 201 in 524 ms.
