@@ -40,3 +40,7 @@ Origen: rama `origin/docs/fase2-juan-documentacion-y-diario`, commit `31f096e46c
 ## Nota posterior (18-nov-2026)
 
 D04 v1.1 y D06 v1.1 reflejan el estado anterior a la demostración E2E del 17 de noviembre de 2026 con DeepSeek (por ejemplo, «DeepSeek real solo reportado» y capturas de conversación pendientes). No se modificaron. Las evidencias vigentes de esa demostración están en `D05_Plan_de_Pruebas_y_Resultados_v1.2_Fase3.docx`, en `Informe_Academico_Consolidado_v1.1_Fase3.docx` y en `07_Evidencias/E2E-2026-11-17-clinica-dental-deepseek/`.
+
+## Nota posterior (19-nov-2026)
+
+Las versiones vigentes de los entregables son D01 v1.2, D02 v1.2, D03 v1.2, D04 v1.2, D05 v1.3, D06 v1.2 e Informe v1.2 (`Fase 3/Entregables/`); D04 v1.2 y D06 v1.2 ya reflejan el E2E del 17-nov. Las versiones anteriores se conservan sin cambios en `Fase 3/Entregables/_historico/`. Las guías oficiales 3.1 y 3.3 están en `Fase 3/Pautas_Oficiales/` y los pendientes del usuario en `DOCUMENTOS_PENDIENTES_USUARIO.md`.

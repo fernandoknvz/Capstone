@@ -19,4 +19,4 @@ Fecha de corte: 19 de noviembre de 2026. Estado general: **pendiente de validaci
 - `Fase 3/07_Evidencias/README.md`: declara como faltantes las actas, decisiones del cliente y exportaciones de CoreStream.
 - `Fase 3/07_Evidencias/CoreStream/`: reporte agregado del 19-nov; no valida el contenido histórico de REG-04 ni acredita hitos.
 - `Fase 3/07_Evidencias/Demo_E2E_2026-11-17/`: capturas funcionales de la demostración; no son evidencia de reuniones o gestión.
-- `Fase 3/Entregables/D01_Arquitectura_de_la_Solucion_v1.1_Fase3.docx` y D02–D06: entregables académicos relacionados, no editados por este expediente.
+- `Fase 3/Entregables/D01_Arquitectura_de_la_Solucion_v1.2_Fase3.docx` y D02–D06 (versiones vigentes; las anteriores, en `Fase 3/Entregables/_historico/`): entregables académicos relacionados, no editados por este expediente.
