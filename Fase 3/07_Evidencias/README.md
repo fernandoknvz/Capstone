@@ -11,6 +11,7 @@ Cada evidencia debe conservar procedencia, fecha, commit o rama, estado de integ
 - E2E del 17-nov con DeepSeek en `E2E-2026-11-17-clinica-dental-deepseek/`: registro, logs sanitizados, cinco capturas recortadas de la conversación y manifiesto SHA-256 (APROBADO CON OBSERVACIONES: latencia objetivo no cumplida, agendamiento simulado). El video original y los logs originales no se incorporan a Git; su hash consta en el registro.
 - Reporte agregado de rendimiento de CoreStream del 19-nov en `CoreStream/`: PDF original, ficha de alcance y manifiesto SHA-256. Es evidencia de gestión agregada; no contiene tickets ni acredita avance real o cumplimiento de hitos.
 - Cuatro capturas derivadas por recorte determinístico de la demostración de clínica dental del 17-nov en `Demo_E2E_2026-11-17/`: estados visibles de la conversación a 35, 70, 110 y 150 segundos según los nombres de origen, con manifiesto SHA-256. Los originales se conservan en el ZIP fuente fuera del repositorio público. Complementan el expediente E2E existente, sin probar latencia, telefonía ni reservas reales.
+- Informe DART-14-2.5 del 19-oct (primera validación E2E con una frase) en `DART-14-2.5_E2E-2026-10-19/`: transcripción textual sanitizada, captura de Agent Console recortada, README con procedencia, SHA-256 del original y transformaciones, y manifiesto. Una frase; sin latencia; audio solo por testimonio del operador.
 
 ## Faltantes
 
