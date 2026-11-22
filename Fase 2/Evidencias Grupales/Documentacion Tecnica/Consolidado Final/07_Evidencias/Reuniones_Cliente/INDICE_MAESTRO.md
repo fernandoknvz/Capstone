@@ -14,7 +14,7 @@ Fecha de corte: 19 de noviembre de 2026. Estado general: **pendiente de validaci
 
 ## Fuentes internas relacionadas, sin convertirlas en prueba de reunión
 
-- `Fase 2/Evidencias Grupales/Documentacion Tecnica/Consolidado Final/MATRIZ_TRAZABILIDAD_PRELIMINAR.md`: estado técnico, pruebas y referencias a PR.
+- `Fase 2/Evidencias Grupales/Documentacion Tecnica/Consolidado Final/Entregables/D03_Levantamiento_de_Requerimientos_v1.2_Fase3.docx` (§10, matriz de trazabilidad y complemento de responsables): estado técnico, pruebas y referencias a PR.
 - `Fase 2/Evidencias Grupales/Documentacion Tecnica/Consolidado Final/07_Evidencias/REGISTRO_CONSOLIDADO_EVIDENCIAS.md`: catálogo de evidencia técnica existente.
 - `Fase 2/Evidencias Grupales/Documentacion Tecnica/Consolidado Final/07_Evidencias/README.md`: declara como faltantes las actas, decisiones del cliente y exportaciones de CoreStream.
 - `Fase 2/Evidencias Grupales/Documentacion Tecnica/Consolidado Final/07_Evidencias/CoreStream/`: reporte agregado del 19-nov; no valida el contenido histórico de REG-04 ni acredita hitos.
