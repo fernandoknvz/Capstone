@@ -4,7 +4,7 @@ Fecha de corte: 17 de noviembre de 2026. Repositorio técnico `main`: `77ff85c3a
 
 Atención a la numeración: el **RF-04 de esta matriz** (generación de respuesta del LLM) equivale al **RF-03 de D03**; el **RF-04 de D03** (voz de contexto chileno, TTS) equivale al **RF-05 de esta matriz**. Ver la tabla de equivalencias al final.
 
-Actualización del 18-nov-2026: se incorpora la evidencia E2E con DeepSeek (`Fase 3/07_Evidencias/E2E-2026-11-17-clinica-dental-deepseek/`). El agendamiento de esa sesión es una simulación conversacional: no hay reservas reales, Asterisk ni persistencia empresarial.
+Actualización del 18-nov-2026: se incorpora la evidencia E2E con DeepSeek (`Fase 2/Evidencias Grupales/Documentacion Tecnica/Consolidado Final/07_Evidencias/E2E-2026-11-17-clinica-dental-deepseek/`). El agendamiento de esa sesión es una simulación conversacional: no hay reservas reales, Asterisk ni persistencia empresarial.
 
 Actualización del 19-nov-2026: se incorporan EV-20 (reporte agregado CoreStream) y EV-21 (cuatro capturas derivadas por recorte determinístico de la demostración del 17-nov). EV-20 es evidencia de gestión y EV-21 es evidencia funcional visual; ninguna modifica por sí sola el estado de cumplimiento de requisitos o hitos.
 

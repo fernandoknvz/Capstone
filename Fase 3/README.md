@@ -27,13 +27,13 @@ Esta estructura consolida documentación y evidencia existentes sin reemplazar n
 | `06_Metricas` | Resultados medidos y reglas de interpretación. |
 | `07_Evidencias` | Evidencias recuperadas, con procedencia e integridad. |
 | `08_Contribuciones` | Autoría verificable y participación declarada. |
-| `09_Presentacion` | Guion preliminar y material sujeto a revisión. |
+| `09_Presentacion` | Retirada en 11H: la presentación vigente es `Evidencias Grupales/Presentación Final de proyecto.pptx`. |
 
-La matriz transversal se encuentra en `MATRIZ_TRAZABILIDAD_PRELIMINAR.md`.
+**Nota de reubicación (11G/11H):** las carpetas `01_Arquitectura` a `08_Contribuciones`, los entregables vigentes y la matriz transversal `MATRIZ_TRAZABILIDAD_PRELIMINAR.md` se encuentran ahora en `Fase 2/Evidencias Grupales/Documentacion Tecnica/Consolidado Final/`. En las secciones siguientes, las rutas `0X_...` y `Entregables/` (vigentes) se leen relativas a esa carpeta; `Entregables/_historico/` y `Entregables/_Referencia_resumenes_Codex/` permanecen en `Fase 3/Entregables/`.
 
 ## Entregables de trabajo
 
-`Entregables/` contiene **solo las versiones vigentes** (actualizadas el 19-nov-2026). Cada una parte de la versión anterior, conservada sin cambios en `Entregables/_historico/`; los originales de Fase 2 (`Fase 2/Evidencias Proyecto/Evidencias Documentacion/`) tampoco se modificaron. El contenido técnico se contrastó con `origin/main` del repositorio técnico (`77ff85c`).
+`Entregables/` contiene **solo las versiones vigentes** (actualizadas el 19-nov-2026). Cada una parte de la versión anterior, conservada sin cambios en `Entregables/_historico/`; los originales de Fase 2 (`Fase 2/Evidencias Grupales/Documentacion Tecnica/`) tampoco se modificaron. El contenido técnico se contrastó con `origin/main` del repositorio técnico (`77ff85c`).
 
 | Entregable vigente | Versión | Qué cambió en la versión actual |
 |---|---|---|
